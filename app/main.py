@@ -36,7 +36,7 @@ app.add_middleware(
         "http://localhost:5500",  # VS Code Live Server
         "http://127.0.0.1:5500",
         "http://localhost:8080",
-        "https://eave-frontend.vercel.app"
+        "https://eave-frontend.vercel.app",
         "https://eave-frontend-miyhgxrnn-gabriels-projects-3cafcbd3.vercel.app",
         "https://eave-health-frontend.vercel.app",
     ],
