@@ -39,7 +39,6 @@ app.add_middleware(
         "https://eave-frontend.vercel.app"
         "https://eave-frontend-miyhgxrnn-gabriels-projects-3cafcbd3.vercel.app",
         "https://eave-health-frontend.vercel.app",
-        "https://*.vercel.app",  # Allows all Vercel preview deployments
     ],
     allow_credentials=True,
     allow_methods=["*"],
