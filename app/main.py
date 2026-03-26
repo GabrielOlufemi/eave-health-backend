@@ -40,6 +40,7 @@ app.add_middleware(
         "https://eave-frontend-miyhgxrnn-gabriels-projects-3cafcbd3.vercel.app",
         "https://eave-health-frontend.vercel.app",
     ],
+    allow_origin_regex=r"https://eave-frontend-.*\.vercel\.app",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
