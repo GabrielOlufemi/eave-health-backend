@@ -1,0 +1,42 @@
+# ── Environment ───────────────────────────────────────────────────────────────
+.env
+!.env.example
+
+# ── Python cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ── Virtual environment ───────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── ML model binaries ─────────────────────────────────────────────────────────
+# Commit these only if they are small enough and version-controlled intentionally.
+# If you store them in cloud storage (S3, GCS etc), ignore them here instead:
+# app/ml/*.pkl
+
+# ── Local dev / utility scripts ───────────────────────────────────────────────
+delete_user.py
+list_users.py
+fix_columns.py
+explore_composio.py
+
+# ── Database ──────────────────────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── OS noise ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Editor ────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
