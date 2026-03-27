@@ -12,8 +12,8 @@ pip install -r requirements-clean.txt
 The `.env` file is already set up with your Neon DB URL. Update these if needed:
 
 ```env
-DATABASE_URL=postgresql+asyncpg://neondb_owner:npg_l2d5EBaOVSuP@ep-dark-art-angamq9b-pooler.c-6.us-east-1.aws.neon.tech/neondb?ssl=require
-DATABASE_URL_SYNC=postgresql://neondb_owner:npg_l2d5EBaOVSuP@ep-dark-art-angamq9b-pooler.c-6.us-east-1.aws.neon.tech/neondb?sslmode=require
+DATABASE_URL=
+DATABASE_URL_SYNC=
 JWT_SECRET=eave-health-jwt-secret-change-me-in-production
 ```
 
